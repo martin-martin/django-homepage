@@ -38,13 +38,13 @@
 
         <a href= {{ project.live_link }}  target="_blank">
 
-          <div class="img-container" style="background-image: url(' {{ project.image }} ')"></div>
+          <div class="img-container" style="background-image: url("{% static "portfolio/screenshots/{{ project.image }}" %}")"></div>
 
         </a>
 
       {% elif project.image %}
 
-        <div class="img-container" style="background-image: url(' {{ project.image }} ')"></div>
+        <div class="img-container" style="background-image: url("{% static "portfolio/screenshots/{{ project.image }}")"></div>
 
       {% else %}
 
