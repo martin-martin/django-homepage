@@ -19,9 +19,9 @@ class Project(models.Model):
     image = models.ImageField(upload_to='folder/url',
                                 blank=True, null=True)
     description = models.CharField(max_length=1000)  # maybe TextField()
-    live_link = models.URLField(max_length=2000)
-    source_code = models.URLField(max_length=2000)
-    blog_link = models.URLField(max_length=2000)
+    live_link = models.URLField()
+    source_code = models.URLField()
+    blog_link = models.URLField()
 
     def __str__(self):
         return self.title
