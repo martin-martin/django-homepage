@@ -10,11 +10,19 @@ class ProjectType(models.Model):
         return self.name
 
 
+class Technology(models.Model):
+    name = models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.name
+
+
 class Project(models.Model):
     project_type = models.ForeignKey(ProjectType,
                                         # allow having no ProjectType association
                                         models.SET_NULL,
                                         blank=True, null=True)
+    technologies = models.ManyToManyField(Technology)
     title = models.CharField(max_length=100)
     image = models.ImageField(upload_to='folder/url',
                                 blank=True, null=True)
@@ -25,11 +33,3 @@ class Project(models.Model):
 
     def __str__(self):
         return self.title
-
-
-class Technology(models.Model):
-    name = models.CharField(max_length=100)
-    projects = models.ManyToManyField(Project)
-
-    def __str__(self):
-        return self.name
