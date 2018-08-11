@@ -1,0 +1,9 @@
+[
+    {"type": "Data Analysis", "priority": 1},
+    {"type": "Text Analysis", "priority": 1},
+    {"type": "Visualization", "priority": 2},
+    {"type": "Web Development", "priority": 2},
+    {"type": "Scripting", "priority": 5},
+    {"type": "Interface Design", "priority": 4},
+    {"type": "Machine Learning", "priority": 3}
+]

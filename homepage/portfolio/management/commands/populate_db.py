@@ -1,6 +1,6 @@
 import json
 from django.core.management.base import BaseCommand
-from portfolio.models import Project
+from portfolio.models import Project, Technology, ProjectType
 
 class Command(BaseCommand):
     args = ''
@@ -19,7 +19,25 @@ class Command(BaseCommand):
                                 blog_link=row['blog_link'])
             project.save()
 
+    def _enter_technologies(self):
+        with open('portfolio/data/tech.json', 'r') as f:
+            data = json.load(f)
+
+        for item in data:
+            tech = Technology(name=item)
+            tech.save()
+
+    def _enter_project_types(self):
+        with open('portfolio/data/project_types.json', 'r') as f:
+            data = json.load(f)
+
+        for item in data:
+            p_type = ProjectType(name=item['type'], priority=item['priority'])
+            p_type.save()
+
     def handle(self, *args, **options):
+        self._enter_project_types()
+        self._enter_technologies()
         self._enter_projects()
 
 # https://eli.thegreenplace.net/2014/02/15/programmatically-populating-a-django-database

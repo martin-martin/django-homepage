@@ -2,7 +2,7 @@
     {
         "title": "xyayz",
         "technologies": "React | HTML | JavaScript | CSS",
-        "image": "static/screenshots/xyayz.png",
+        "image": "screenshots/xyayz.png",
         "description": "this is going to be my fun website with lots of nooks and crannies and stuff to discover :) - currently under heavy construction efforts.",
         "live_link": "http://www.xyayz.com",
         "source_code": "http://github.com/xyayz",
@@ -11,7 +11,7 @@
     {
         "title": "portfolio inception",
         "technologies": "Flask | CSS | JavaScript",
-        "image": "static/screenshots/portfolio.png",
+        "image": "screenshots/portfolio.png",
         "description": "this page. click for a secret link to the front page.",
         "live_link": "http://www.martinbreuss.com/",
         "source_code": "https://github.com/martin-martin/portfolio",
@@ -20,7 +20,7 @@
     {
         "title": "pokéblog",
         "technologies": "React | CSS",
-        "image": "static/screenshots/pokeblog.png",
+        "image": "screenshots/pokeblog.png",
         "description": "a travel blog for great adventures of little people in a big world.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/react_pokeblog",
@@ -29,7 +29,7 @@
     {
         "title": "bookshelf",
         "technologies": "React | CSS",
-        "image": "static/screenshots/bookshelf.png",
+        "image": "screenshots/bookshelf.png",
         "description": "an overpowered list of books.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/react-bookshelf",
@@ -38,7 +38,7 @@
     {
         "title": "topology math",
         "technologies": "Python",
-        "image": "static/screenshots/topology.png",
+        "image": "screenshots/topology.png",
         "description": "retracing basic GIS topology operations by myself in Python. maybe making modules.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/topology_math",
@@ -47,7 +47,7 @@
     {
         "title": "sealed cities",
         "technologies": "d3 | JavaScript | CSS",
-        "image": "static/screenshots/sealed.png",
+        "image": "screenshots/sealed.png",
         "description": "an interactive map with information on soil sealing in European cities. and colors.",
         "live_link": "http://www.datamat.in/",
         "source_code": "https://github.com/martin-martin/sealed_cities",
@@ -56,7 +56,7 @@
     {
         "title": "keno page",
         "technologies": "Bootstrap | CSS",
-        "image": "static/screenshots/keno.png",
+        "image": "screenshots/keno.png",
         "description": "a mini tribute to Keno Don Rosa.",
         "live_link": "https://martin-martin.github.io/keno/",
         "source_code": "https://github.com/martin-martin/keno",
@@ -65,7 +65,7 @@
     {
         "title": "satellheights",
         "technologies": "d3 | JavaScript",
-        "image": "static/screenshots/satellheights.png",
+        "image": "screenshots/satellheights.png",
         "description": "visually comparing the (astounding) distance between normal satellites and GPS satellites.",
         "live_link": "https://martin-martin.github.io/satellheights/",
         "source_code": "https://github.com/martin-martin/satellheights/tree/master",
@@ -74,7 +74,7 @@
     {
         "title": "estimating triangles",
         "technologies": "Python",
-        "image": "static/screenshots/polygon.png",
+        "image": "screenshots/polygon.png",
         "description": "idea to visually model an algorithm to create triangles for Thiessen polygons.",
         "live_link": "",
         "source_code": "",
@@ -83,7 +83,7 @@
     {
         "title": "clean up game",
         "technologies": "Python | JavaScript",
-        "image": "static/screenshots/cleanup.png",
+        "image": "screenshots/cleanup.png",
         "description": "messy computer paints some squares, human has to walk over them to discolor them again.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/clean_up/blob/master/clean_up.py",
@@ -92,7 +92,7 @@
     {
         "title": "blossomizer",
         "technologies": "HTML | JavaScript | CSS",
-        "image": "static/screenshots/blossomizer.png",
+        "image": "screenshots/blossomizer.png",
         "description": "insert two nouns to create a 'crash blossom' - playing with a specialty of the English language.",
         "live_link": "https://d8z079h7ghotx.cloudfront.net/",
         "source_code": "https://github.com/martin-martin/blossomizer",
@@ -101,7 +101,7 @@
     {
         "title": "unconditional speeches",
         "technologies": "Python | NLTK",
-        "image": "static/screenshots/speeches.png",
+        "image": "screenshots/speeches.png",
         "description": "code that weeds through speeches, taking out everything except nouns and verbs.",
         "live_link": "https://dsjvkmk8ze06t.cloudfront.net/",
         "source_code": "https://github.com/martin-martin/unconditional_speeches",
@@ -110,7 +110,7 @@
     {
         "title": "define love",
         "technologies": "Python | Pearson API",
-        "image": "static/screenshots/love.png",
+        "image": "screenshots/love.png",
         "description": "querying the Pearson API for word information.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/define/blob/master/define_me.py",
@@ -119,7 +119,7 @@
     {
         "title": "100 blocks a day",
         "technologies": "JavaScript | HTML | CSS",
-        "image": "static/screenshots/100blocks.png",
+        "image": "screenshots/100blocks.png",
         "description": "a JS tool to visually structure your day (for more happiness and productivity)",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/100_blocks_a_day",
@@ -128,7 +128,7 @@
     {
         "title": "cloud lemmatize",
         "technologies": "Python | meaningcloud API",
-        "image": "static/screenshots/cloud.png",
+        "image": "screenshots/cloud.png",
         "description": "using a pipeline and an API to find POS and lemmas for a ton of words in some languages.",
         "live_link": "https://github.com/martin-martin/lemmas_pos",
         "source_code": "https://github.com/martin-martin/cloud_lemmatize",
@@ -137,7 +137,7 @@
     {
         "title": "stanford events scraper",
         "technologies": "Python",
-        "image": "static/screenshots/scrapeford.png",
+        "image": "screenshots/scrapeford.png",
         "description": "Automatically sift through the great daily events at Stanford University to find free AI and ML related on-campus lectures.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/scrapeford_events/blob/master/scrapeford_ml.py",
@@ -146,7 +146,7 @@
     {
         "title": "baseword frequency lists",
         "technologies": "Python",
-        "image": "static/screenshots/bw_freq.png",
+        "image": "screenshots/bw_freq.png",
         "description": "generated baseword-frequency lists for DE, EN, ES and FR.",
         "live_link": "https://github.com/martin-martin/bw_frequency_lists/tree/master",
         "source_code": "https://github.com/martin-martin/lemma_getta",
@@ -155,7 +155,7 @@
     {
         "title": "lemma frequencies",
         "technologies": "Python | RegExp | xml.etree",
-        "image": "static/screenshots/lemma.png",
+        "image": "screenshots/lemma.png",
         "description": "create lemma-frequency lists from largely spoken-word corpora (OPUS).",
         "live_link": "https://github.com/martin-martin/lemma_freq",
         "source_code": "https://github.com/martin-martin/lemma_freq/blob/master/frequencify.py",
@@ -164,7 +164,7 @@
     {
         "title": "hidden coding",
         "technologies": "HTML | CSS",
-        "image": "static/screenshots/nobvious.png",
+        "image": "screenshots/nobvious.png",
         "description": "sometimes you code all day but there's nothing to show for it. a little diary.",
         "live_link": "https://martin-martin.github.io/non-obvious/",
         "source_code": "https://github.com/martin-martin/non-obvious",
@@ -173,7 +173,7 @@
     {
         "title": "scrape song info",
         "technologies": "Ruby | Nokogiri | Python | BeautifulSoup | RegExp",
-        "image": "static/screenshots/genius.png",
+        "image": "screenshots/genius.png",
         "description": "Ruby and Python code to fetch song info from genius.com",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/scrape_it_ch_an_son/tree/master",
@@ -182,7 +182,7 @@
     {
         "title": "scrape definitions",
         "technologies": "Ruby | Nokogiri | Python | BeautifulSoup | RegExp",
-        "image": "static/screenshots/wordscrape.png",
+        "image": "screenshots/wordscrape.png",
         "description": "Ruby and Python code that can be included in a webapp to fetch the definitions of a word from wordreference.com",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/scrape_definitions",
@@ -191,7 +191,7 @@
     {
         "title": "hidden wishes",
         "technologies": "Python | NLTK | RegExp",
-        "image": "static/screenshots/bday.png",
+        "image": "screenshots/bday.png",
         "description": "munged through novels to see whether they wish me a happy birthday!",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/hidden_wishes/blob/master/hidden_wishes.py",
@@ -200,7 +200,7 @@
     {
         "title": "game of vectors",
         "technologies": "Python | NLTK | word2vec | sklearn",
-        "image": "static/screenshots/game.png",
+        "image": "screenshots/game.png",
         "description": "wordclouds from such things: 'Their droppings speckled the gargoyles that rose twelve feet tall on either side of him [...]''",
         "live_link": "https://github.com/martin-martin/game_of_vectors/blob/master/GameOfVectors.ipynb",
         "source_code": "https://github.com/martin-martin/game_of_vectors",
@@ -209,7 +209,7 @@
     {
         "title": "tiny flowing tensors",
         "technologies": "Python",
-        "image": "static/screenshots/miniflow.png",
+        "image": "screenshots/miniflow.png",
         "description": "implementing a small version of TensorFlow with the help of Udacity, to better understand backpropagation and differentiable graphs.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/MiniFlow/blob/master/MiniFlow.ipynb",
@@ -218,7 +218,7 @@
     {
         "title": "brain body",
         "technologies": "Python | sklearn",
-        "image": "static/screenshots/brainbody.png",
+        "image": "screenshots/brainbody.png",
         "description": "predicting an animals body weight from the weight of its brain.",
         "live_link": "https://github.com/martin-martin/brain_body/blob/master/BrainBody.ipynb",
         "source_code": "https://github.com/martin-martin/brain_body",
@@ -227,7 +227,7 @@
     {
         "title": "lyric search",
         "technologies": "Python | NLTK | RegExp",
-        "image": "static/screenshots/lyricsearch.png",
+        "image": "screenshots/lyricsearch.png",
         "description": "check whether a word appears in song lyrics and print the corresponding lines.",
         "live_link": "https://github.com/martin-martin/search_lyrics/blob/master/the_search.ipynb",
         "source_code": "https://github.com/martin-martin/search_lyrics",
@@ -236,7 +236,7 @@
     {
         "title": "word frequenctrees",
         "technologies": "JavaScript",
-        "image": "static/screenshots/frequenctree.png",
+        "image": "screenshots/frequenctree.png",
         "description": "input some text to get a word frequency analysis with a pretty image.",
         "live_link": "https://martin-martin.github.io/freqenctree/",
         "source_code": "https://github.com/martin-martin/freqenctree",
@@ -245,7 +245,7 @@
     {
         "title": "flight oracle",
         "technologies": "Python | NLTK",
-        "image": "static/screenshots/oracle.png",
+        "image": "screenshots/oracle.png",
         "description": "creating meaningless graphs that look meaningful while waiting for a plane.",
         "live_link": "https://martin-martin.github.io/flight_oracle/",
         "source_code": "https://github.com/martin-martin/flight_oracle",
@@ -254,7 +254,7 @@
     {
         "title": "sentence snowflakes",
         "technologies": "Python | NLTK",
-        "image": "static/screenshots/doubles.png",
+        "image": "screenshots/doubles.png",
         "description": "what we speak is surprisingly unique. a hommage to language creativity.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/sentence_doubles",
@@ -263,7 +263,7 @@
     {
         "title": "engine search",
         "technologies": "Python | Tkinter",
-        "image": "static/screenshots/engine.png",
+        "image": "screenshots/engine.png",
         "description": "finally a way to find lost engines! now with a GUI. (a minimal search engine)",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/engine_search",
@@ -272,7 +272,7 @@
     {
         "title": "berryfinder",
         "technologies": "Python | OpenCV",
-        "image": "static/screenshots/berry.png",
+        "image": "screenshots/berry.png",
         "description": "code-along to identify strawberries in images.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/find_a_berry",
@@ -281,7 +281,7 @@
     {
         "title": "Android sing le page",
         "technologies": "Java",
-        "image": "static/screenshots/golden.png",
+        "image": "screenshots/golden.png",
         "description": "participating in an Android Beginner course, I built a static single-page app.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/app_mockup",
@@ -290,7 +290,7 @@
     {
         "title": "microblog",
         "technologies": "Ruby | Rails",
-        "image": "static/screenshots/railsblog.png",
+        "image": "screenshots/railsblog.png",
         "description": "a rails practice.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/toying",
@@ -299,7 +299,7 @@
     {
         "title": "Don sí",
         "technologies": "Python | NLTK",
-        "image": "static/screenshots/donsi.png",
+        "image": "screenshots/donsi.png",
         "description": "analyzing a free-form literary corpus (call it a novel) for word frequencies.",
         "live_link": "https://github.com/martin-martin/don_si/blob/master/El_Don.ipynb",
         "source_code": "https://github.com/martin-martin/don_si/blob/master/El_Don.py",
@@ -308,7 +308,7 @@
     {
         "title": "my MOOCs",
         "technologies": "HTML | Python | CSS",
-        "image": "static/screenshots/moocs.png",
+        "image": "screenshots/moocs.png",
         "description": "an attempt to assemble all the online courses I did from 2014-2015. in color.",
         "live_link": "https://martin-martin.github.io/my-moocs/",
         "source_code": "https://github.com/martin-martin/my-moocs",
@@ -317,7 +317,7 @@
     {
         "title": "word frequencies",
         "technologies": "Python | RegExp",
-        "image": "static/screenshots/words.png",
+        "image": "screenshots/words.png",
         "description": "a tool to see which words in a given text are frequent words in that language.",
         "live_link": "https://github.com/martin-martin/word_frequencies/blob/master/word_frequencies.ipynb",
         "source_code": "https://github.com/martin-martin/word_frequencies",
@@ -326,7 +326,7 @@
     {
         "title": "painting lane lines",
         "technologies": "Python | OpenCV",
-        "image": "static/screenshots/lanes.png",
+        "image": "screenshots/lanes.png",
         "description": "recognizing lane lines in images and videos. painting lines everywhere.",
         "live_link": "https://github.com/martin-martin/finding_lane_lines/blob/master/P1-submit.ipynb",
         "source_code": "https://github.com/martin-martin/finding_lane_lines",
@@ -335,7 +335,7 @@
     {
         "title": "LESS",
         "technologies": "Balsamiq | Ninjamock | HTML",
-        "image": "static/screenshots/less.png",
+        "image": "screenshots/less.png",
         "description": "a mock landing page for a fictional app that I seriously lived and developed.",
         "live_link": "https://martin-martin.github.io/less_landing/",
         "source_code": "https://github.com/martin-martin/less_landing",
@@ -344,7 +344,7 @@
     {
         "title": "Evil Corp analysis",
         "technologies": "Python | sklearn",
-        "image": "static/screenshots/enron.png",
+        "image": "screenshots/enron.png",
         "description": "using machine learning to identify persons of interest that might be involved in the Enron fraud case.",
         "live_link": "http://martin-martin.github.io/smartest_algorithm/",
         "source_code": "https://github.com/martin-martin/smartest_algorithm/blob/master/poi_id.py",
@@ -353,7 +353,7 @@
     {
         "title": "presidential dollars",
         "technologies": "R",
-        "image": "static/screenshots/presidential.png",
+        "image": "screenshots/presidential.png",
         "description": "analyzing the individual contributions to the US presidential elections and playing with ggplot2, the implementation of the poetic 'Grammar of Graphics'.",
         "live_link": "http://martin-martin.github.io/presidential_dollars/",
         "source_code": "https://github.com/martin-martin/presidential_dollars",
@@ -362,7 +362,7 @@
     {
         "title": "did Jack Dawson die in vain?",
         "technologies": "Python | pandas | numpy | matplotlib",
-        "image": "static/screenshots/titanic.png",
+        "image": "screenshots/titanic.png",
         "description": "analyzing the Titanic dataset for factors influencing survival (a.k.a. double-checking the accuracy of the movie).",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/titanic_analysis",
@@ -371,7 +371,7 @@
     {
         "title": "early resume",
         "technologies": "HTML | JavaScript | CSS",
-        "image": "static/screenshots/resume.png",
+        "image": "screenshots/resume.png",
         "description": "an early try of making an online resume.",
         "live_link": "https://martin-martin.github.io/FEND_resume/",
         "source_code": "https://github.com/martin-martin/FEND_resume",
@@ -380,7 +380,7 @@
     {
         "title": "bootstries",
         "technologies": "Bootstrap",
-        "image": "static/screenshots/bootstry.png",
+        "image": "screenshots/bootstry.png",
         "description": "a simple play-around practice for learning bootstrap.",
         "live_link": "https://martin-martin.github.io/hello_boost/",
         "source_code": "https://github.com/martin-martin/hello_boost",
@@ -389,7 +389,7 @@
     {
         "title": "cleaning Las Vegas",
         "technologies": "Python | XML | OSM",
-        "image": "static/screenshots/lasvegas.png",
+        "image": "screenshots/lasvegas.png",
         "description": "investigating and improving the OpenStreetMap data on Las Vegas.",
         "live_link": "",
         "source_code": "https://github.com/martin-martin/cleaning-las-vegas/blob/master/LV_all_code.py",
@@ -398,7 +398,7 @@
     {
         "title": "polling for color",
         "technologies": "Google App Engine | HTML | JavaScript | CSS",
-        "image": "static/screenshots/stage4.png",
+        "image": "screenshots/stage4.png",
         "description": "a practice on persistent data storage on GAE, spiced up with text emojis and rainbows. my favorite one is  ¯\\_(ツ)_/¯",
         "live_link": "https://stage-4-996.appspot.com/",
         "source_code": "https://github.com/martin-martin/IPND_Stage-4",
@@ -407,7 +407,7 @@
     {
         "title": "first website project",
         "technologies": "Google App Engine | HTML | JavaScript | CSS",
-        "image": "static/screenshots/ipnd.png",
+        "image": "screenshots/ipnd.png",
         "description": "an assembly of my learning steps and materials from a Udacity Nanodegree.",
         "live_link": "https://ipnd-all.appspot.com/",
         "source_code": "https://github.com/martin-martin/IPND_final_project",
