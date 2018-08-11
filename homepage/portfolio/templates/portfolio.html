@@ -2,9 +2,83 @@
 
 {% block content %}
 
+<h1> {{ title }} </h1>
+
 <div class="msg">
-    <p> {{ msg }} </p>
+
+    <p>  {{  msg  }}  </p>
+
 </div>
+
+  <div class="portfolio">
+    <!-- render each project including name, screenshot, description,
+        and available links (live project, code, and related blog post) -->
+    {% for project in projects %}
+
+    <div class="project">
+
+      <h2> {{ project.title }} </h2>
+
+      <p class="technologies">
+            <!-- to iterate over a ManyToManyField we need to transform
+                it into an iterable first, this works with '.all' -->
+          {% for tech in project.technologies.all %}
+
+              <span> {{ tech }} </span>
+
+          {% endfor %}
+
+      </p>
+
+      <!-- depending on availability, display either image as link,
+          only image, or an explanatory string that the img is missing -->
+      {% if project.live_link and project.image %}
+
+        <a href= {{ project.live_link }}  target="_blank">
+
+          <div class="img-container" style="background-image: url(' {{ project.image }} ')"></div>
+
+        </a>
+
+      {% elif project.image %}
+
+        <div class="img-container" style="background-image: url(' {{ project.image }} ')"></div>
+
+      {% else %}
+
+        <div class="img-container">currently no screenshot available</div>
+
+      {% endif %}
+
+      <p> {{ project.description }} </p>
+
+      <div class="project-links">
+
+        {% if project.live_link %}
+
+          <a href= {{ project.live_link }}  target="_blank">live version</a>
+
+        {% endif %}
+
+        {% if project.source_code %}
+
+          <a href= {{ project.source_code }}  target="_blank">code</a>
+
+        {% endif %}
+
+        {% if project.blog_link %}
+
+          <a href= {{ project.blog_link }}  target="_blank">more info</a>
+
+        {% endif %}
+
+      </div>
+
+    </div>
+
+    {% endfor %}
+
+  </div>
 
 {% endblock content %}
 
