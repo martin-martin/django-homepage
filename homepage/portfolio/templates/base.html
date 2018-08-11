@@ -3,10 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>mb</title>
-    {% block head %}
-
-    {% endblock head %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static "portfolio/style.css" %}">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static "portfolio/favicon.ico" %}">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <title>mb/{{ page }}</title>
 </head>
 <body>
     {% block content %}
