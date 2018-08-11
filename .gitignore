@@ -1,0 +1,2 @@
+# avoid leaking sensitive information
+db.sqlite3
