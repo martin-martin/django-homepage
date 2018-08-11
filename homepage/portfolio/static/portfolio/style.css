@@ -9,7 +9,8 @@ body {
 
 .logo {
   font-family: 'Arial', sans-serif;
-  font-size: 30em;
+  font-size: 24em;
+  line-height: 1em;
 }
 
 /* create color-hover-effect for M logo and buttons */
@@ -34,6 +35,12 @@ button a {
   appearance: none;
   text-decoration: none;
   color: inherit;
+  /* increase the clickable area */
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 1.3em;
+  margin: -1.3em;
 }
 
 .nav-button {
