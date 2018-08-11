@@ -1,2 +1,3 @@
 # avoid leaking sensitive information
 db.sqlite3
+migrations
