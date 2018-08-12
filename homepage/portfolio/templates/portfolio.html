@@ -38,13 +38,13 @@
 
         <a href= {{ project.live_link }}  target="_blank">
 
-          <div class="img-container" style="background-image: url("{% static "portfolio/screenshots/{{ project.image }}" %}")"></div>
+          <div class="img-container" style='background-image: url("{% static "portfolio/screenshots/{{ project.image }}" %}")'></div>
 
         </a>
 
       {% elif project.image %}
 
-        <div class="img-container" style="background-image: url("{% static "portfolio/screenshots/{{ project.image }}")"></div>
+        <div class="img-container" style='background-image: url("{% static "portfolio/screenshots/{{ project.image }}")'></div>
 
       {% else %}
 
@@ -82,5 +82,36 @@
 
   </div>
 
+  <!-- displayed on larger devices (browsers) -->
+  <div class="button-row-portfolio">
+    <button class="nav-button highlight-green">
+      <a href="mailto:breuss.martin@gmail.com">contact me</a>
+    </button>
+    <button class="nav-button highlight-orange">
+      <a href="/">return home</a>
+    </button>
+    <button class="nav-button highlight-blue">
+      <a href="#">back to top</a>
+    </button>
+  </div>
+  <!-- displayed on smaller devices (mobile) -->
+  <div class="button-row-portfolio-mobile">
+    <button class="nav-mobile highlight-green">
+      <a href="mailto:breuss.martin@gmail.com"><img class="icon" src="{% static "portfolio/icons/mail.svg" %}"></a>
+    </button>
+    <button class="nav-mobile highlight-orange">
+      <a href="/"><img class="icon" src="{% static "portfolio/icons/home.svg" %}"></a>
+    </button>
+    <button class="nav-mobile highlight-orange">
+      <a href="#"><img class="icon" src="{% static "portfolio/icons/top.svg" %}"></a>
+    </button>
+  </div>
+
 {% endblock content %}
+
+{% block overflow %}
+
+    <div class="overflow">pst... this is a secret. :)</div>
+
+{% endblock overflow %}
 
