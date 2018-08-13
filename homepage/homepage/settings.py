@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.martinbreuss.com', 'martinbreuss.com']
 
 
 # Application definition
@@ -139,7 +139,7 @@ STATICFILES_DIRS = [
 # so, eventually I might want to define a different folder for the MEDIA_ROOT
 # in order to simulate having it outside of the app directory.
 # REPLACE THIS SERVER_DIR with actual abs_path of media folder on the server
-SERVER_DIR = '/Users/martin/Documents/projects/homepage'
+SERVER_DIR = '/home/martin/homepage'
 MEDIA_ROOT = os.path.join(SERVER_DIR, 'media')
 MEDIA_URL = '/media/'
 
