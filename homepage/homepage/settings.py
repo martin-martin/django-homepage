@@ -64,6 +64,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
             ],
         },
     },
@@ -126,3 +127,22 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "portfolio/static"),
     '/var/www/static/',
 ]
+
+# define where media files get stored
+# HOWEVER: mär is, that media files should be outside of the app, not within
+# when serving the app in production
+
+# possibility to do if settings.DEBUG is True: also here, however, then
+# media files uploaded during development don't get displayed in production
+# messsssy!
+
+# so, eventually I might want to define a different folder for the MEDIA_ROOT
+# in order to simulate having it outside of the app directory.
+# REPLACE THIS SERVER_DIR with actual abs_path of media folder on the server
+SERVER_DIR = '/Users/martin/Documents/projects/homepage'
+MEDIA_ROOT = os.path.join(SERVER_DIR, 'media')
+MEDIA_URL = '/media/'
+
+# if DEBUG is True:
+#     MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+#     MEDIA_URL = '/media/'

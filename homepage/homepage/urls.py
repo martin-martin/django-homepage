@@ -16,9 +16,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 import portfolio.views
+# what is this?
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('portfolio/', portfolio.views.portfolio),
     path('', portfolio.views.main),
 ]
+
+# add this in order to see the media during development
+# http://techstream.org/Web-Development/Serving-Files-in-Django
+if settings.DEBUG is True:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
