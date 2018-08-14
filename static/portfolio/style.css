@@ -1,0 +1,220 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: #fdfdfd;
+  color: #303030;
+}
+
+/* ---------- HOME ---------- */
+
+.logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 24em;
+  line-height: 1em;
+}
+
+/* create color-hover-effect for M logo and buttons */
+.highlight-orange:hover {
+  color: #ffa000;
+  border-color: #ffa000;
+}
+
+.highlight-green:hover {
+  color: lightgreen;
+  border-color: lightgreen;
+}
+
+.highlight-blue:hover {
+  color: lightblue;
+  border-color: lightblue;
+}
+
+button a {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-decoration: none;
+  color: inherit;
+  /* increase the clickable area */
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 1.3em;
+  margin: -1.3em;
+}
+
+.nav-button {
+  font-size: 1.1em;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #303030;
+  border-radius: 15px;
+  color: #303030;
+  background-color: #fdfdfd;
+}
+
+.button-row-mobile,
+.button-row-portfolio-mobile {
+  display: none;
+}
+
+/* ---------- PORTFOLIO ---------- */
+
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #303030;
+  border-radius: 20px;
+  color: #fdfdfd;
+  background-color: #303030;
+  max-width: 300px;
+}
+
+.technologies {
+  font-size: 0.9em;
+  color: inherit;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-links a {
+  color: #ffa000;
+}
+
+.project-links a:visited {
+  color: #ffc107;
+}
+
+.project-links a:hover {
+  color: #ff6f00;
+}
+
+.button-row-portfolio {
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  bottom: 5px;
+}
+
+.button-row-portfolio .nav-button {
+  opacity: 0.8;
+}
+
+/*
+  restrict img to uniform size automatically,
+  while showing the center portion of the screenshot. adapted from:
+  https://stackoverflow.com/questions/15866223/how-to-make-images-get-cut-off
+*/
+.img-container {
+  height: 200px;
+  width: 300px;
+  color: gray;
+  background-position: center;
+  border: 1px solid #303030;
+  border-radius: 20px;
+}
+
+/* ---------- FOOTER ---------- */
+
+.separator {
+  display: none;
+}
+
+footer {
+  font-size: 0.6em;
+  color: #303030;
+}
+
+.icon {
+  height: 20px;
+  width: auto;
+  padding: 8px;
+}
+
+.overflow {
+  color: #fdfdfd;
+  font-size: 2.5em;
+}
+
+/* ---------- RESPONSIVE ELEMENTS ---------- */
+
+/* TODO: remove blue highlighting when buttons are clicked */
+@media only screen and (max-width: 768px) {
+
+  .logo {
+    font-size: 14em;
+  }
+
+  .button-row-main,
+  .button-row-portfolio {
+    display: none;
+  }
+
+  .button-row-mobile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .button-row-portfolio-mobile {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    bottom: 5px;
+  }
+
+  .button-row-portfolio-mobile .nav-mobile {
+    opacity: 0.8;
+  }
+
+  .nav-mobile {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    border: none;
+    border-radius: 100px;
+    background-color: #fdfdfd;
+  }
+
+  .highlight-orange {
+    color: #ffa000;
+    border-color: #ffa000;
+    fill: #ffa000;
+  }
+
+  .highlight-green {
+    color: lightgreen;
+    border-color: lightgreen;
+    fill: lightgreen;
+  }
+
+  .highlight-blue {
+    color: lightblue;
+    border-color: lightblue;
+    fill: lightblue;
+  }
+
+  .separator {
+    display: block;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  .icon {
+    height: 45px;
+    width: auto;
+    padding: 20px;
+  }
+}
