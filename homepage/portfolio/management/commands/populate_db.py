@@ -46,27 +46,27 @@ class Command(BaseCommand):
     #       I suggest to keep the below code commented-out after the first
     #       time db population, and add further tech and types manually.
 
-    def _enter_technologies(self):
-        with open('portfolio/data/tech.json', 'r') as f:
-            data = json.load(f)
+    #def _enter_technologies(self):
+    #    with open('portfolio/data/tech.json', 'r') as f:
+    #        data = json.load(f)
 
-        for item in data:
-            tech = Technology(name=item)
-            tech.save()
+    #    for item in data:
+    #        tech = Technology(name=item)
+    #        tech.save()
 
-    def _enter_project_types(self):
-        with open('portfolio/data/project_types.json', 'r') as f:
-            data = json.load(f)
+    #def _enter_project_types(self):
+    #    with open('portfolio/data/project_types.json', 'r') as f:
+    #        data = json.load(f)
 
-        for item in data:
-            p_type = ProjectType(name=item['type'], priority=item['priority'])
-            p_type.save()
+    #    for item in data:
+    #        p_type = ProjectType(name=item['type'], priority=item['priority'])
+    #        p_type.save()
 
     # might not be necessary, maybe all _functions() get run anyways (?)
     def handle(self, *args, **options):
         self._enter_projects()
-        self._enter_project_types()
-        self._enter_technologies()
+      # self._enter_project_types()
+      # self._enter_technologies()
 
 # HELPFUL RESOURCES:
 # https://eli.thegreenplace.net/2014/02/15/programmatically-populating-a-django-database

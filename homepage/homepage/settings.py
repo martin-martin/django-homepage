@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['www.martinbreuss.com', 'martinbreuss.com']
+ALLOWED_HOSTS = ['www.martinbreuss.com', 'martinbreuss.com', "77.81.234.178"]
 
 
 # Application definition
@@ -120,12 +120,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
+SERVER_DIR = '/home/martin/homepage'
+
+STATIC_ROOT = os.path.join(SERVER_DIR, 'static')
 STATIC_URL = '/static/'
 
 # if things don't work, JUST DO THIS!
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "portfolio/static"),
-    '/var/www/static/',
 ]
 
 # define where media files get stored
@@ -139,7 +141,6 @@ STATICFILES_DIRS = [
 # so, eventually I might want to define a different folder for the MEDIA_ROOT
 # in order to simulate having it outside of the app directory.
 # REPLACE THIS SERVER_DIR with actual abs_path of media folder on the server
-SERVER_DIR = '/home/martin/homepage'
 MEDIA_ROOT = os.path.join(SERVER_DIR, 'media')
 MEDIA_URL = '/media/'
 
