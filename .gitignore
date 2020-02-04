@@ -1,3 +1,6 @@
 # avoid leaking sensitive information
 db.sqlite3
 migrations
+env
+.env
+__pycache__
