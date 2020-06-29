@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'replacement value')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['www.martinbreuss.com', 'martinbreuss.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'www.martinbreuss.com', 'martinbreuss.com']
 
 
 # Application definition
@@ -56,7 +56,8 @@ ROOT_URLCONF = 'homepage.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'portfolio/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'portfolio/templates'),
+                 os.path.join(BASE_DIR, 'blog/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -119,13 +120,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
-
+STATIC_ROOT = '/Users/martin/Documents/projects/homepage'
 STATIC_URL = '/static/'
 
 # if things don't work, JUST DO THIS!
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "portfolio/static"),
-    '/var/www/static/',
 ]
 
 # define where media files get stored

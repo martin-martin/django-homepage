@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {% if post_list %}
+    {% for post in post_list %}
+        <h1>{{ post.title }}</h1>
+        <h2>{{ post.date }}</h2>
+        <p>{{ post.body }}</p>
+    {% endfor %}
+
+    {% endif %}
+
+{% endblock %}
+
